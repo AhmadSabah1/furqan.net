@@ -1,5 +1,6 @@
-export default function page(): React.JSX.Element {
+export default function page({ params }: { params: { reading: string } }): React.JSX.Element {
+    const { reading } = params
     return <div>
-        from hafs01
+        {`from ${reading}!`}
     </div>
 }
