@@ -1,5 +1,5 @@
-export function header() {
-    <div>
-        I AM HEADER!!!
+export function Footer() {
+    return <div>
+        I AM FOOTER!!!
     </div>
 }
